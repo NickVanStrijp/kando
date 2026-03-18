@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/desktop"
+    },
+    {
+      "path": "./packages/shared"
+    },
+    {
+      "path": "./packages/core"
+    },
+    {
+      "path": "./packages/db"
+    },
+    {
+      "path": "./packages/git"
+    },
+    {
+      "path": "./packages/ui"
+    }
+  ]
+}

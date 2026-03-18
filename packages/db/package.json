@@ -1,0 +1,20 @@
+{
+  "name": "@kando/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "better-sqlite3": "latest",
+    "drizzle-orm": "latest"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "latest",
+    "typescript": "latest"
+  }
+}
